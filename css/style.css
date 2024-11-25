@@ -1,0 +1,93 @@
+body{
+    font-family: 'Segoe ui light';
+}
+
+/*start header section*/
+header{
+    background-image: url(../img/pexels-phamnghia-1555177.jpg);
+    background-position:center center ;
+    background-size: cover;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    margin: 0px 5px;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+}
+.header-content a{
+    color: #ff206e;
+}
+/*end header section*/
+/*start title section*/
+.title h2{
+    font-size: 80px;
+    color: #f1f1f1;
+    letter-spacing: 15px;
+  
+}
+.title h3{
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+.about .lead{
+    color: #ff206e; 
+}
+/*end title sectio*/
+/*start services section*/
+.services{
+    background-image: url(../img/pexels-achraf210-1477156.jpg);
+}
+.services h2{
+    color:#222;
+}
+.services h3{
+ color: white;  
+}
+.item .brdr{
+    background-color: #ff206e;
+    height: 2px;
+    width: 23%;
+    margin:5px auto;
+}
+/*end services section*/
+/*start carsoul section*/
+.client-img{
+    width: 90px;
+    border: 3px solid #f4f4f4;
+    transform: translateY(50%);
+}
+.client-feedback{
+    border: solid 3px #f4f4f4;
+}
+.testi .title h2{
+    letter-spacing: 5px;
+}
+.testi .title h3{
+    letter-spacing: 5px;
+}
+.client-feedback .brdr{
+    background-color: #ff206e;
+    height: 2px;
+    width: 10%;
+    margin:10px auto;
+}
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-indent: 0;
+}
+.badge{
+    opacity: 0.7;
+}
+
+#products i{
+    color: #ff206e;
+}
+/*end carsoul section*/
+/*start contacts section*/
+#contacts{
+    height: 30vh;
+    background-color: #273036;
+}
+/*end contacts section*/
